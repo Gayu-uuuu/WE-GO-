@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "WE Go! — Premium Project Tracker",
   description: "Streamline your execution, track milestones, and ship projects with clean precision.",
+    icons: {
+    icon: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -31,3 +34,4 @@ export default function RootLayout({
     </html>
   );
 }
+

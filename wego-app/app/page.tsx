@@ -292,19 +292,7 @@ export default function LandingPage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-border-custom bg-background px-6 py-8">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <span className="text-xs text-neutral-500 font-mono">
-            &copy; 2026 WE Go!. Built with Next.js & Supabase.
-          </span>
-          <div className="flex gap-6 text-xs text-neutral-400 font-mono">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">GitHub</a>
-          </div>
-        </div>
-      </footer>
+      
     </div>
   );
 }
